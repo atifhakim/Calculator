@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+.text-center{
+  text-align: center;
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 297px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.yellow {
+    background-color: #ff9f0a;
+}
+.container {
+    padding: 20px;
+background-color: #000000;
+height: 450px;
+width: 330px;
+border-radius: 30px;
+align-items: center;
+flex-direction: column;
+display:flex;
+margin: auto;
+}
+
+@media screen and (max-width:768px) and (min-height:1024px) {
+  .container{
+    
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row input{
+    width: 470px;
+    font-size: 50px;
+    padding: 20px;
+      border: 2px solid black;
+      border-radius: 5px;
+  }
+  .button{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:300px) and (min-height:800px) {
+  .container{
+    height: 700px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row input{
+    width: 470px;
+    font-size: 50px;
+    padding: 20px;
+      border: 2px solid black;
+      border-radius: 5px;
+  }
+  .button{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+}
